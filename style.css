@@ -11,9 +11,10 @@ header {
 }
 
 
-
 header .container .row div {
+height: 105px;
   background-color: red;
+  border: solid 1px black;
 }
 
 /* .no-padding {
@@ -29,6 +30,7 @@ main .start {
 main .start .container .contenuto_start {
   height: 380px;
   background-color: red;
+  border: solid 1px black;
 }
 
 main .portfolio {
@@ -98,4 +100,5 @@ footer .footer_down {
 footer .footer_down .row {
   background-color: red;
   height: 73px;
+  border: solid 1px black;
 }
