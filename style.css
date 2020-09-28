@@ -76,3 +76,26 @@ main .contact .contenuto_contact {
   height: 780px;
   margin-top: 90px;
 }
+
+
+/* FOOTER */
+footer .footer_up {
+  height: 306px;
+  background-color: #2c3e50;
+}
+
+footer .footer_up .row .box_footer {
+  background-color: red;
+  height: 165px;
+  border: solid 1px black;
+}
+
+footer .footer_down {
+  background-color: #1a252f;
+  height: 73px;
+}
+
+footer .footer_down .row {
+  background-color: red;
+  height: 73px;
+}
