@@ -42,8 +42,26 @@ main .portfolio .box {
 }
 
 main .portfolio .box {
-  width: 332px;
+  /* width: 332px; */
   border: solid 1px black;
   margin-right: 50px;
 
+}
+
+/* sezione ABOUT */
+main .about {
+  height: 600px;
+  background-color: #1abc9c;
+}
+
+main .about .contenuto_about {
+  background-color: green;
+  height: 515px;
+}
+
+main .about .contenuto_about .col_about {
+  height: 180px;
+  background-color: red;
+  margin-top: 250px;
+  border: solid 1px black;
 }
