@@ -65,3 +65,14 @@ main .about .contenuto_about .col_about {
   margin-top: 250px;
   border: solid 1px black;
 }
+
+/* sezione CONTACT */
+main .contact {
+  height: 995px;
+}
+
+main .contact .contenuto_contact {
+  background-color: blue;
+  height: 780px;
+  margin-top: 90px;
+}
