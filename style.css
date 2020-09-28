@@ -16,8 +16,34 @@ header .container .row div {
   background-color: red;
 }
 
+/* .no-padding {
+  padding: 0;
+} */
+
 /* MAIN */
 main .start {
   height: 480px;
   background-color: #1abc9c;
+}
+
+main .start .container .contenuto_start {
+  height: 380px;
+  background-color: red;
+}
+
+main .portfolio {
+  height: 850px;
+  background-color: yellow;
+}
+
+main .portfolio .box {
+  height: 240px;
+  background-color: violet;
+}
+
+main .portfolio .box {
+  width: 332px;
+  border: solid 1px black;
+  margin-right: 50px;
+
 }
