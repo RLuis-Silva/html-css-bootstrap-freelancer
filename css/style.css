@@ -42,19 +42,15 @@ header .navbar  {
 
 /* MAIN */
 main .start {
-  height: 480px;
+  height: 680px;
   background-color: #1abc9c;
 }
 
 main .contenuto_start img {
   height: 250px;
+  margin-top: 105px;
 }
 
-main .start .container .contenuto_start {
-  height: 380px;
-  background-color: red;
-  border: solid 1px black;
-}
 
 main .portfolio {
   height: 850px;
