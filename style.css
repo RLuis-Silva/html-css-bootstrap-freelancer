@@ -43,11 +43,19 @@ main .portfolio .box {
   background-color: violet;
 }
 
-main .portfolio .box {
+main .portfolio .container .row .box {
   /* width: 332px; */
   border: solid 1px black;
-  margin-right: 50px;
+  /* padding-left: 38px; */
+  padding-right: 38px;
+  background-color: violet;
+}
 
+main .portfolio .container .row .box .contenuto_box {
+height: 240px;
+  background-color: red;
+  width: 100%;
+  background-color: red;
 }
 
 /* sezione ABOUT */
