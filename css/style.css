@@ -129,26 +129,19 @@ main .about .contenuto_about .bottone_download i {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* sezione CONTACT */
 main .contact {
   height: 995px;
 }
 
 main .contact .contenuto_contact {
-  background-color: blue;
+  background-color: yellow;
   height: 780px;
   margin-top: 90px;
+}
+
+main .contact .contenuto_contact form {
+  color: #7e93a1;
 }
 
 
