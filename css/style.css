@@ -3,6 +3,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   color: white;
+  font-size: 18px;
 }
 
 .text_black {
@@ -95,16 +96,49 @@ main .about {
 }
 
 main .about .contenuto_about {
-  background-color: green;
   height: 515px;
+  padding-top: 90px;
 }
 
 main .about .contenuto_about .col_about {
   height: 180px;
-  background-color: red;
-  margin-top: 250px;
-  border: solid 1px black;
+  margin-top: 20px;
+  /* padding: 20px; */
+  padding: 20px 45px 20px 45px;
 }
+
+main .about .contenuto_about .bottone_download {
+  height: 65px;
+  padding-left: 20px;
+  margin-top: 30px;
+  background-color: #1abc9c;
+  border: solid 1px white;
+  border-radius: 8px;
+}
+
+main .about .contenuto_about .bottone_download a {
+  line-height: 60px;
+  color: white;
+}
+
+main .about .contenuto_about .bottone_download i {
+  font-size: 25px;
+  padding-right: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* sezione CONTACT */
 main .contact {
