@@ -12,7 +12,7 @@ header {
 
 
 header .container .row div {
-height: 105px;
+  height: 105px;
   background-color: red;
   border: solid 1px black;
 }
@@ -38,24 +38,30 @@ main .portfolio {
   background-color: yellow;
 }
 
-main .portfolio .box {
+/* main .portfolio .box {
   height: 240px;
+  background-color: violet;
+} */
+
+main .portfolio .container .row .box {
+  width: 382px;
+  /* border: solid 1px black; */
+  padding-left: 0px;
+  padding-right: 50px;
+  margin-top: 50px;
   background-color: violet;
 }
 
-main .portfolio .container .row .box {
-  /* width: 332px; */
-  border: solid 1px black;
-  /* padding-left: 38px; */
-  padding-right: 38px;
-  background-color: violet;
+main .portfolio .container .row .box:last-child {
+  width: 332px;
+  padding-right: 0;
 }
 
 main .portfolio .container .row .box .contenuto_box {
-height: 240px;
+  height: 240px;
   background-color: red;
-  width: 100%;
-  background-color: red;
+  border: solid 1px black;
+  border-radius: 10px;
 }
 
 /* sezione ABOUT */
