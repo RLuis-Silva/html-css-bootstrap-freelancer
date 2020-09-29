@@ -46,6 +46,10 @@ main .start {
   background-color: #1abc9c;
 }
 
+main .contenuto_start img {
+  height: 250px;
+}
+
 main .start .container .contenuto_start {
   height: 380px;
   background-color: red;
