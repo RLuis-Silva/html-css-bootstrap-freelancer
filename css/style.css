@@ -181,25 +181,25 @@ main .portfolio .container .row .box:last-child {
 
 /* sezione ABOUT */
 main .about {
-  height: 600px;
+  /* height: 600px; */
 }
 
 main .about .contenuto_about {
-  height: 515px;
   padding-top: 90px;
 }
 
 main .about .contenuto_about .col_about {
-  height: 180px;
   margin-top: 20px;
   /* padding: 20px; */
   padding: 20px 45px 20px 45px;
 }
 
 main .about .contenuto_about .bottone_download {
+  width: 220px;
   height: 65px;
   padding-left: 20px;
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 70px;
   background-color: #1abc9c;
   border: solid 1px white;
   border-radius: 8px;
@@ -297,7 +297,8 @@ footer .footer_down .row {
     margin-left: 30px;
   }
 
-
-
-  /* SEZIONE3:  */
+  /* SEZIONE3: ABOUT */
+  main .about .container .row .bottone_download {
+    margin-left: 70px;
+  }
 }
