@@ -105,13 +105,17 @@ header .navbar .container .navbar-header {
 /* MAIN */
 /* sezione1: "start" */
 main .start {
-  height: 680px;
+  /* height: 680px; */
   background-color: #1abc9c;
 }
 
 main .contenuto_start img {
   height: 250px;
   margin-top: 105px;
+}
+
+main .contenuto_start h3 {
+  margin-bottom: 80px;
 }
 
 /* sezione2: "portfolio" */
@@ -245,5 +249,14 @@ footer .footer_down .row {
 @media screen and (max-width: 768px) {
   header .navbar .container {
     vertical-align: middle;
+  }
+
+  /* SEZIONE1: START */
+  main .start .contenuto_start  {
+    padding-right: 15px;
+  }
+
+  main .start .contenuto_start h1 {
+    font-size: 30px;
   }
 }
