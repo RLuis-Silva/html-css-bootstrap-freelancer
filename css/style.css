@@ -28,6 +28,31 @@ h2 {
   color: white;
 }
 
+.stella_del_cazzo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 30px;
+  /* width: 300px; */
+}
+
+.stella_del_cazzo::before,
+.stella_del_cazzo::after {
+  content: "";
+  display: inline-block;
+  width: 30%;
+  height: 4px;
+  border-radius:  2px;
+  background-color: white;
+
+}
+
+.stella_del_cazzo  .fa-star {
+  display: inline-block;
+  font-size: 30px;
+  vertical-align: bottom;
+}
+
 /* HEADER */
 header .navbar  {
   height: 105px;
@@ -45,6 +70,7 @@ header .navbar  {
 .navbar .container .navbar-header h1 {
   font-size: 25px;
   margin-top: 10px;
+  color: white;
 }
 
 .container .navbar-nav li a {
