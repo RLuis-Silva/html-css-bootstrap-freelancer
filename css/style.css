@@ -109,7 +109,7 @@ main .contenuto_start img {
 /* sezione2: "portfolio" */
 main .portfolio {
   height: 850px;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 main .portfolio .contenuto_box img {
@@ -126,6 +126,10 @@ main .portfolio .container .row .box {
   /* background-color: violet; */
 }
 
+main .portfolio .container .stella_del_cazzo {
+  margin-bottom: 0px;
+}
+
 main .portfolio .container .row .box:last-child {
   width: 332px;
   padding-right: 0;
@@ -136,7 +140,6 @@ main .portfolio .container .row .box:last-child {
 /* sezione ABOUT */
 main .about {
   height: 600px;
-  background-color: #1abc9c;
 }
 
 main .about .contenuto_about {
