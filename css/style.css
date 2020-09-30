@@ -293,7 +293,7 @@ footer .footer_down .row {
   /* SEZIONE2: PORTFOLIO */
   /* in modo da avere uno spazio-minimo da centrare i box */
   main .portfolio .container .row:nth-child(2),
-  main .portfolio .container .row:nth-child(2)  {
+  main .portfolio .container .row:nth-child(3)  {
     margin-left: 30px;
   }
 
