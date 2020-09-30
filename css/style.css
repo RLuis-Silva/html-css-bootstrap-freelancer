@@ -291,7 +291,13 @@ footer .footer_down .row {
   }
 
   /* SEZIONE2: PORTFOLIO */
-  main .portfolio .container .row .box {
-    margin-left: auto;
+  /* in modo da avere uno spazio-minimo da centrare i box */
+  main .portfolio .container .row:nth-child(2),
+  main .portfolio .container .row:nth-child(2)  {
+    margin-left: 30px;
   }
+
+
+
+  /* SEZIONE3:  */
 }
